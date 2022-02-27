@@ -1,0 +1,121 @@
+.main-div {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: var(--color-white); */
+    font-size: 80px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+    
+}
+
+.main-div-1 {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.521);
+    /* color: var(--color-white); */
+    font-size: 80px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+    animation-delay: 500ms;
+}
+
+.main-div-2 {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: rgba(255, 255, 0, 0.623);
+    /* color: rgba(0, 0, 255, 0.562); */
+    /* color: var(--color-white); */
+    font-size: 80px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+}
+
+.main-div-3 {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: rgba(255, 255, 0, 0.623); */
+
+    color: rgba(0, 0, 255, 0.562);
+    /* color: var(--color-white); */
+    font-size: 80px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+}
+
+.myfonts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.borderd {
+    /* width: 100px;
+  height: 100px; */
+ padding: 15px;
+  background:
+    linear-gradient(to right, rgba(255, 255, 0) 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, rgba(0, 0, 255) 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, rgba(255, 0, 0) 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, rgba(0, 0, 255) 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, rgba(255, 255, 0) 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, rgba(255, 0, 0) 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  box-shadow: slategrey;
+}
+
+.yellow {
+    border-color: rgba(255, 255, 0);;
+}
+
+.blue {
+    border-color: rgba(0, 0, 255);
+}
+
+.red {
+    border-color:  rgba(255, 0, 0);;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+h2{
+    text-decoration: underline;
+  text-decoration-color: red;
+}
